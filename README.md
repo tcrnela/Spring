@@ -1,6 +1,17 @@
 # 스프링 입문 - 회원 관리 서비스
 
 ---
+## 2026-01-08
+
+### Key Concepts
+- **JPA**: 객체 지향적인 방식으로 DB와 상호작용하는 기본 원리 습득
+- **Spring Data JPA**: 인터페이스 작명 규칙만으로 JPQL이 자동 생성되는 쿼리 메소드 기능 적용
+- **Aspect Oriented Programming (AOP)**: `@Aspect`와 프록시 매커니즘을 이용해 비즈니스 로직 수정 없이 공통 로직 주입
+
+### Deep Dive
+- `@Transactional`: JPA 사용시 서비스 로직에 사용해 원자성과 무결성 확보
+
+---
 ## 2026-01-07
 
 ### Key Concepts
